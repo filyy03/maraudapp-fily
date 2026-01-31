@@ -1,6 +1,4 @@
-/* =========================
-   TYPOGRAPHIE & COULEURS
-   ========================= */
+/* === TYPOGRAPHIE & COULEURS === */
 
 /* Titres principaux */
 h1 {
@@ -17,9 +15,7 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
-/* =========================
-   LAYOUT GÉNÉRAL
-   ========================= */
+/* === LAYOUT GÉNÉRAL === */
 
 main {
   padding: 2rem 5%;
@@ -31,9 +27,7 @@ main h1 {
   text-align: center;
 }
 
-/* =========================
-   SECTION INTRO
-   ========================= */
+/* === SECTION INTRO === */
 
 .intro {
   max-width: 900px;
@@ -55,9 +49,7 @@ main h1 {
   color: #333;
 }
 
-/* =========================
-   CONTAINER DU DASHBOARD
-   ========================= */
+/* === CONTAINER DU DASHBOARD === */
 .dashboard-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -82,12 +74,8 @@ main h1 {
     text-align: center;
 }
 
-/* =========================
-   TABLEAUX
-   ========================= */
+/* === TABLEAUX === */
 
-/* Assure que la dernière cellule (celle des boutons) reste flexible */
-/* Flex uniquement pour les boutons de la colonne Modifications */
 .dashboard-table td.actions .actions-buttons {
     display: flex;
     gap: 5px;          /* espace entre les boutons */
@@ -96,7 +84,7 @@ main h1 {
 }
 
 
-/* Empêche les boutons de se réduire ou se casser */
+/* cela empêche les boutons de se réduire ou se casser */
 .dashboard-table .btn-edit,
 .dashboard-table .btn-delete, 
 .dashboard-table .btn-attente{
@@ -165,9 +153,7 @@ main h1 {
     background-color: #f1f1f1;
 }
 
-/* =========================
-   BADGES
-   ========================= */
+/* === BADGES === */
 .badge {
     display: inline-block;
     padding: 4px 10px;
@@ -182,9 +168,7 @@ main h1 {
 .badge-ok { background-color: #2563EB; }
 .badge-urgent { background-color: #B91C1C; }
 
-/* =========================
-   BOUTONS
-   ========================= */
+/* === BOUTONS === */
 .btn {
     padding: 6px 12px;
     border: none;
@@ -206,9 +190,7 @@ main h1 {
     cursor: not-allowed;
 }
 
-/* =========================
-   SECTIONS DU DASHBOARD
-   ========================= */
+/* === SECTIONS DU DASHBOARD === */
 .dashboard-section {
     margin-bottom: 3rem;
 }
@@ -225,9 +207,7 @@ main h1 {
     overflow-x: auto;
 }
 
-/* =========================
-   RESPONSIVE
-   ========================= */
+/* === RESPONSIVE === */
 
 
 @media (max-width: 768px) {

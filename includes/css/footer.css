@@ -90,9 +90,7 @@ main {
   opacity: 0.6;
 }
 
-/* =========================
-   RESPONSIVE 
-   ========================= */
+/* === RESPONSIVE === */
 
 @media (max-width: 768px) {
   #footer {

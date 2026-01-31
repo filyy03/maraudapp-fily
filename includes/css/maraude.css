@@ -1,6 +1,4 @@
-/* =========================
-   CONTAINER MARAUDES
-   ========================= */
+/* === CONTAINER MARAUDES ==== */
 
 .maraudes-container {
     max-width: 900px;
@@ -73,7 +71,8 @@
     margin-top: 20px;
 }
 
-/* Responsive */
+/* === RESPONSIVE MOBILE === */
+
 @media (max-width: 768px) {
     .maraudes-container {
         padding: 0 15px;

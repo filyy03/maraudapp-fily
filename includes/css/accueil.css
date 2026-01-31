@@ -1,6 +1,4 @@
-/* =========================
-   TYPOGRAPHIE & COULEURS
-   ========================= */
+/* === TYPOGRAPHIE & COULEURS === */
 
 /* Titres principaux */
 h1 {
@@ -17,9 +15,7 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
-/* =========================
-   LAYOUT GÉNÉRAL
-   ========================= */
+/* === LAYOUT GÉNÉRAL === */
 
 main {
   padding: 2rem 5%;
@@ -31,9 +27,7 @@ main h1 {
   text-align: center;
 }
 
-/* =========================
-   SECTION INTRO
-   ========================= */
+/* === SECTION INTRO === */
 
 .intro {
   max-width: 900px;
@@ -55,9 +49,7 @@ main h1 {
   color: #333;
 }
 
-/* =========================
-   SECTIONS HERO (layout commun)
-   ========================= */
+/* === SECTIONS HERO (layout commun) === */
 
 .hero-don,
 .hero-benevole,
@@ -106,9 +98,7 @@ main h1 {
   margin-bottom: 1.5rem;
 }
 
-/* =========================
-   COULEURS SPÉCIFIQUES
-   ========================= */
+/* === COULEURS SPÉCIFIQUES === */
 
 /* Section Don - Bleu */
 .hero-don .hero-text,
@@ -123,9 +113,7 @@ main h1 {
   height: 500px;
 }
 
-/* =========================
-   BOUTONS
-   ========================= */
+/* === BOUTONS === */
 
 .btn-don {
   display: inline-block;
@@ -143,9 +131,7 @@ main h1 {
   background: #F59E0B;
 }
 
-/* =========================
-   RUBRIQUES
-   ========================= */
+/* === RUBRIQUES === */
 
 .rubrique h2 {
   font-size: 1.5rem;
@@ -154,9 +140,7 @@ main h1 {
   text-align: center;
 }
 
-/* =========================
-   RESPONSIVE MOBILE
-   ========================= */
+/* === RESPONSIVE MOBILE === */
 
 @media screen and (max-width: 768px) {
   /* Intro */

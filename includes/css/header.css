@@ -82,6 +82,9 @@ body {
   border-radius: 3px;
 }
 
+/* === RESPONSIVE MOBILE === */
+
+
 /* MENU HAMBURGER */
 .menu-toggle {
   display: none;

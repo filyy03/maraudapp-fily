@@ -1,6 +1,4 @@
-/* =========================
-   TYPOGRAPHIE & COULEURS
-   ========================= */
+/* === TYPOGRAPHIE & COULEURS === */
 
 /* Titres principaux */
 h1 {
@@ -17,9 +15,7 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
-/* =========================
-   LAYOUT GÉNÉRAL
-   ========================= */
+/* === LAYOUT GÉNÉRAL === */
 
 main {
   padding: 2rem 5%;
@@ -31,9 +27,7 @@ main h1 {
   text-align: center;
 }
 
-/* =========================
-   SECTION INTRO
-   ========================= */
+/* === SECTION INTRO === */
 
 .intro {
   max-width: 900px;
@@ -62,9 +56,7 @@ main h1 {
   font-weight: bold;
 }
 
-/* =========================
-   RESPONSIVE 
-   ========================= */
+/* === RESPONSIVE === */
 
 @media (max-width: 768px) {
   main {
